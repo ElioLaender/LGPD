@@ -1,0 +1,174 @@
+* Empresas que utilizam dados, precisarão do consentimento das pessoas para a coleta, armazenamento, manuseio, trafego e exclusão de dados. Sempre de forma transparente e com segurança.
+
+* A Lei Geral da Proteção de Dados, prevê multas e sançoes gravíssimas, sendo levado também em consideração ações judiciais de indenização. 
+
+* Dicas para aumentar a segurança:
+- Adicionar validação para fazer com que o usuário informe senhas mais seguras. (mínimo de caracteres, números, caracteres especiais)
+- Dos daos informados ao sistema, o usuário deverá ser esclarecido sobre a finalidade dos dados inseridos, informado sobre o compartilhamento com parceiros comerciais, sobre a política de descarte desses dados. 
+- As informações ao usuário deverão ser prestadas de forma clara e precisa, sendo informado todo o processo que irá ocorrer após a terminado determinada transação. (Informar os passos em caso de desistência/cancelamento do serviço/produto)
+
+* Abrangência da LGPD - Lei Geral de Proteção de Dados (Lei nº 13.709/2018)
+
+- A LGPD tem por finalidade proteger os direitos fundamentais a liberdade, privacidade e o livre desenvolvimento da pessoa natural. Para que tal objetivo seja alcançado, a lei determina a forma como os dados das pessoas devem ser tratados, tando em meios físicos quanto digitais. Em resumo, a LGPD protege os direitos fundamentais de liberdade e de privaciade dos indivíduos. 
+
+- A LGPD foi criada com influência na DUDH - (Declaração universal dos Direitos do Homem), A constituição Federal do Brasil, que garante a liberdade e a privacidade e a GDPR, equivalente a LGPD no Brasil.
+
+- A LGPD traz princípios, direitor e obrigações ao lidar com os dados, pois intende que são um dos ativos mais valiosos da sociedade digital, composta pelas bases de daos relacionaos às pessoas.
+
+- Ao lidar com a LGPD, precisamos identificar as funcionalidades e a partir das funcionalidades desenvolver as políticas de privacidade com base nos dados coletados. 
+
+* Ao trabalhar com um projeto que atenda a LGPD, precisamos identificar os direcionadores de negócio (Business Drivers), servindo de exmplo em um sistema de rastreamento de veículos:
+
+- Receita com serviço em tempo real;
+- Serviço com uso de GEOLOCALIZAÇÃO;
+- Operação Satisfatória x Disponibilidade;
+- Privacidade (LGPD). Requisitos Funcionais (RF). Requisitos Não Funcionais. Engenharia. Tecnologia.
+
+* Exemplo de requisitos funcionais:
+
+- Cadastro via Web: nome, endereço, CPF, e-mail, telefones para contato;
+- Cadastramento dos bens;
+- Dados do pagamento – Boleto ou Cartão de Crédito;
+- Informações ao cliente sobre frete, prazo de entrega, desistência e cancelamento.
+
+
+* Principais Regras da LGPD:
+- Consentimento para o Processamento
+- Direito de acesso e correções
+- Propósito de uso 
+- Prestação de contas
+- Tratamento especial para dados sensíveis
+- Compliance e Encarregado de Proteção de Dados
+
+===============================================
+* Conceitos LGPD:
+
+- Titular dos dados: Pessoa física ao qual os dados se refere. Na qual a pessoa pode ser identificada por esses dados. Ps: Dados de empresas não estão no escopo da LGPD, assim como pessoas falecidas(confirmar).
+
+- Dados pessoais segundo a interpretação da LGPD: Todo dado capaz de identificar seu titular. ex: nome, rg, telefone, data/local de nascimento,email, dados de conta em reder sociais. 
+
+- A lei definiu uma categoria especial de tratamento de dados, sendo os "Dados Sensíveis": É composto por dados que fala sobre a personalidade do indivíduo, tal como raça, etinia, convicção política/partidária, convicção religiosa, convicção filosófica, filização sindical, daos referente a saúde, dados biométricos, dados sobre a vida sexual.
+
+- Dados anonimizados: Dados que passam por técnicas de anonimização, onde os dados são desvinculados do titular. 
+
+* Agentes de Processamento: (Tanto o controlado quanto o processados podem ser pessoas naturais ou jurídicas)
+- Controlador: O que detém o domínio das decisões, quem estabelece de que forma os dados serão utilizados, sendo o controlador que responde a autoridade supervisora. Muitas vezes o controlado contrata o processador na cadeia do processamento de dados. 
+- Processados: O processador, atua de acordo com as normas definidas pelo controlador, atuando somente da forma que o controlador determinar. 
+- SUbprocessador: Geralmente um contratado que participa da cadeia de processamento dos dados pessoais. No caso, o subprocessador é outro prestador de seriviço que por ventura tenha sido contratado pelo processador. É importante ressaltar que quando exite um subprocessador, o controlador deve ser notificado de todos envolvidos no processamento de dados. 
+- Autoridade Supervisora: Autoridade criada pelo poder público federal, vinculada a presidência da república com finalidade de zelar pela proteção de dados. 
+
+* A quem a LGPD não se aplica:
+ 
+- Pessoa natural para fins exclusivamente particulares e não econômicos. (Pessoa que processa dados como hobbie?, "fazer algo em casa sem fins lucrativos nem divulgação"?)
+- Uso de dados para fins jornalísticos e artísticos. Para essa finalidade, a LGPD não se aplica.(confirmar melhor)
+- Fins acadêmicos
+- Segurança Pública
+- Defesa Nacional
+- Segurança do Estado
+- Investigação e repressão penal
+- De fora do Brasil que:
+  - Não seja objeto de comunicação
+  - Uso compartilhado com agentes de tratamento do Brasil
+  - Transferência internacional com país diverso (desde que o país proporcione grau de proteção)
+
+===============================================
+* Conceito de titular de dados:
+- Pessoa natural (identificada ou identificável) a quais os dados pessoais são objeto de tratamento. 
+===============================================
+* A LGPD não se aplica nos seguintes casos:
+- Ao tratamento de dados com finalidade de segurança pública, defesa nacional, segurança do estado, atividades de investigação e repressão de infrações penais.
+===============================================
+* Conceitos Gerais da LGPD:
+
+- Tratamento: Toda operação realizada com dados pessoais, tais como coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distrubuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração. 
+
+- Dado Pessoal Sensível: É todo dado pessoal sobre origem racial ou étinica, convicção religiosa, opinião política, filiação a sindicato ou organização de carater religioso, filisófico, político. Dado referente à saúde, vida sexual, dado genético ou biométrico, quando estes vinculados a uma pessoa natural.
+===============================================
+* Nomeclaturas Gerais da LGPD: (Conforme dispõe o artigo 5º, da LGPD)
+
+- dado pessoal: informação relacionada a pessoa natural identificada ou identificável;
+- dado pessoal sensível: dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural;
+- dado anonimizado: dado relativo a titular que não possa ser identificado, considerando a utilização de meios técnicos razoáveis e disponíveis na ocasião de seu tratamento;
+- banco de dados: conjunto estruturado de dados pessoais, estabelecido em um ou em vários locais, em suporte eletrônico ou físico;
+- titular: pessoa natural a quem se referem os dados pessoais que são objeto de tratamento;
+- controlador: pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais;
+- operador: pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador;
+- encarregado: pessoa indicada pelo controlador para atuar como canal de comunicação entre o controlador, os titulares dos dados e a Autoridade Nacional de Proteção de Dados;
+- agentes de tratamento: o controlador e o operador;
+- tratamento: toda operação realizada com dados pessoais, como as que se referem a coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração;
+- anonimização: utilização de meios técnicos razoáveis e disponíveis no momento do tratamento, por meio dos quais um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo;
+- consentimento: manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento de seus dados pessoais para uma finalidade determinada;
+- bloqueio: suspensão temporária de qualquer operação de tratamento, mediante guarda do dado pessoal ou do banco de dados;
+- eliminação: exclusão de dado ou de conjunto de dados armazenados em banco de dados, independentemente do procedimento empregado;
+- transferência internacional de dados: transferência de dados pessoais para país estrangeiro ou organismo internacional do qual o país seja membro;
+- uso compartilhado de dados: comunicação, difusão, transferência internacional, interconexão de dados pessoais ou tratamento compartilhado de bancos de dados pessoais por órgãos e entidades públicos no cumprimento de suas competências legais, ou entre esses e entes privados, reciprocamente, com autorização específica, para uma ou mais modalidades de tratamento permitidas por esses entes públicos, ou entre entes privados;
+- órgão de pesquisa: órgão ou entidade da administração pública direta ou indireta ou pessoa jurídica de direito privado sem fins lucrativos legalmente constituída sob as leis brasileiras, com sede e foro no País, que inclua em sua missão institucional ou em seu objetivo social ou estatutário a pesquisa básica ou aplicada de caráter histórico, científico, tecnológico ou estatístico;
+- autoridade nacional: órgão da administração pública responsável por zelar, implementar e fiscalizar o cumprimento desta Lei em todo o território nacional.
+===============================================
+* Princípios da LGPD:
+
+- Boa-fé: Partindo do pressuposto que os controladores e processadores não farão termos de concentimentos abusivos no que diz respeito a aceitação do usuário para utilizar a plataforma.
+- Adequação: Literalmente cumprir com tudo o que está sendo proposto pela LGPD e nos termos de concentidos pelo usuário.
+- Finalidade: Utilizar somente o necessário para que as atividades sejam realizadas (aequação, necessidade)
+
+===============================================
+* Coleta e consentimento do titular de dados:
+
+- Qual a forma que deve ser coletado o consentimento do titular de dados?
+R: A forma de coleta do consentimento deve ser específica, destacada e mediante finalidades declaradas. 
+
+* Referente a dados pessoais sensíveis:
+- classifica como dados sensíveis: todo dado sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dados referentes à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural.
+
+===============================================
+* Direitos do titular de dados:
+
+- O titular de dados, possui direito ao livre acesso de suas informações, exatidão dos dados pessoais. Dessa forma, o titular de dados pode pedir alteração, correção, atualização dos seus dados pessoais.
+
+- Controladores e processadores devem obedecer rigorosamente a obrigação de manter o titular dos dados esclarecido a respeito da finalidade que os daos pessoais deles estão sendo coletados. Esse esclarecimento pode ser realizado, por exemplo, via contrato, termos de uso e política de privacidade.  
+
+- A portabilidade de dados. O titular de dados tem direito a ter seus dados, caso deseje migrar os seus dados pessoais, por exemplo. (Ter acesso a uma exportação de dados pessoais, por exemplo)
+
+- Anonimização dos dados, solicitação de bloqueio e até mesmo exclusão dos dados pessoais. 
+
+- O titular dos dados possui direito de saber quando seus dados pessoais são compartilhados, tanto por empresas privadas quanto públicas. Por exemplo, uma empresa que irá compartilhar os dados com parceiros comerciais, deverá informar os tipos de parceiros, porém não precisa informar o nome do parceiro. Lembrando que esse compartilhamento precisa ser consentido pelo titular de dados. 
+
+- O titular de dados tem direito de ser esclarecido sobre as negativas de consentimento. Tendo acesso ao que deverá ocorrer caso não exista o consentimento. 
+
+- Direito a revogação do consentimento. Sendo que essa opção deve ser disponibilizada da mesma forma que o consentimento, ou seja, facilitado, gratuíto, para que o titular de dados tenha essa informação facilitaa a sua disposição. Atenção: O Consentimento anteriormente fornecido pelo titular de dados permanece válido. A revogação entrará em vigor a partir do momento em que o consentimento é removido. Exceto se o titular de dados solicitar a eliminação das informações dos seus dados da base, os dados anteriormente utilizados durante o consentimento continuarão ativos, salvo em caso de solicitação para exclusão dos dados(verificar se está correto). Um ponto importante a se considerar é a respeito do vício de consentimento, que acontece quando o titular do dado é induzido ao erro, ludibriado, vítima de uma fraude, propaganda enganosa. Nestes casos, a capacidade do titular de dados fica comprometida, porque lhe foi apresentado um cenário que não corresponde a realidade. Nesses casos, o controlador tem que ter muito cuidado, fornecendo e coletando consentimento específico do titular para cada finalidade declarada. Cabe ao controlador o ônus de provar que ele está atuando de acordo com a LGPD, da mesma forma que o processador.
+
+- Dados referentes ao Titulares de dados podem ser excluído mediante solicitação do titular ou da autoridade supervisora, caso exista constatação de irregularidade que comprometa a segurança dos titulares. 
+
+- Em caso de transferência internacional de dados, poderá acontecer quando os países a que estiverem relacionados oferecerem um grau de proteção compatível com a LGPD. Pode ocorrer tranferência internacional de dados nos casos de cooperação jurídica internacional entre os países, serviços de inteligência, investição, persecução criminal. Também é permitido transferência internacional em casos de proteção da vida, interesse da incolumidade física do titular ou terceiro. A transferência de dados também poderá ocorrer para execução de política pública, atribuição legal de serviço público. Atenção: De qualquer forma, sempre deverá existir o consentimento específico, prévio, destaque para que o titular tenha ciência de que os seus dados pessoais poderão ser transferidos a outros países, ou seja, deverá ter uma finalidade distinta bem destacada para que ele exerça o seu consentimento. 
+
+
+===============================================
+* Reforçando: Direitos do titular de dados:
+
+- A LGPD - Lei Geral de Proteção de Dados define que o titular dos dados pessoais tem direito a obter do controlador, em relação aos dados do titular por ele tratados, a qualquer momento e mediante requisição: confirmação da existência de tratamento; acesso aos dados; correção de dados incompletos, inexatos ou desatualizados; anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com a LGPD; portabilidade dos dados a outro fornecedor de serviço ou produto, mediante requisição expressa; portabilidade dos dados a outro fornecedor de serviço ou produto, mediante requisição expressa; eliminação dos dados pessoais tratados com o consentimento do titular, nos limites da lei; informação das entidades públicas e privadas com as quais o controlador realizou uso compartilhado de dados; informação sobre a possibilidade de não fornecer consentimento e sobre as consequências da negativa; revogação do consentimento.
+
+- O titular de dados possui os direitos fundamentais de liberdade, de intimidade e de privacidade. 
+
+- O titular de dados tem direito de livre acesso, portabilidade dos dados e revogação do consentimento.
+
+- O titular de dados tem o direito de não fornecer seu consentimento e, caso não forneça, deverá ser esclarecido sobre as consequências da negativa. 
+
+===============================================
+Gestão de Riscos:
+
+Aula 03
+
+===============================================
+Palavras chaves:
+
+Liberdade, transparência, segurança.
+
+===============================================
+Referências:
+ISO/IEC. ISO/IEC 10.746.
+ISO/IEC 9.126
+===============================================
+Pesquisar: 
+- Sistemas de saúde precisam do consentimento do titular de dados? Pois geralmente esses dados são informados e utilizados por um profissional de saúde. 
+O que são requisitor funcionais e requisitos não funcionais;
+O controlador/processador deve estipular que os dados ficarão disponíveis para manipução?
